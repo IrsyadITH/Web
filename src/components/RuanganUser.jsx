@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import SidebarUser from './SidebarUser';
 
-const ruangan = () => {
+const RuanganUser = () => {
   const [rooms, setRuangan] = useState([]);
 
   useEffect(() => {
@@ -71,4 +71,4 @@ const ruangan = () => {
   );
 };
 
-export default ruangan;
+export default RuanganUser;
